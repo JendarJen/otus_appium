@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641311086678' stop='1641311130273'>
+    <name>Login on React Native CSI Mobile App</name>
+    <title>Login on React Native CSI Mobile App</title>
+    <test-cases>
+        <test-case start='1641311086678' status='passed' stop='1641311130267'>
+            <name>User should be able to login to CSI Mobile App</name>
+            <title>User should be able to login to CSI Mobile App</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

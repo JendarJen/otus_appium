@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641312538027' stop='1641312551429'>
+    <name>Checking the Main menu for task 2959</name>
+    <title>Checking the Main menu for task 2959</title>
+    <test-cases>
+        <test-case start='1641312538027' status='broken' stop='1641312551422'>
+            <name>The user can navigate the Main menu</name>
+            <title>The user can navigate the Main menu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 10-10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>status is not defined</message>
+                <stack-trace>ReferenceError: status is not defined
+                    at Context.&lt;anonymous> (/Users/evgeniarud/otus_appium/otus_appium/specs/check_main_menu.js:25:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
